@@ -10,17 +10,8 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
 		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
 
-	<context:spring-configured />
-	<context:annotation-config />
 
-	<bean id="embeddedMongoDBFactory" class="com.dhanush.DefaultEmbeddedMongoDBFactoryImpl">
-		<constructor-arg name="databaseName" value="test" />
-	</bean>
-
-	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
-		<constructor-arg name="mongoDbFactory" ref="embeddedMongoDBFactory" />
-	</bean>
-
+	<!-- Actual MONGO DB definitions go here -->
 </beans>
 
 

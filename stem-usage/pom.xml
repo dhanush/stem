@@ -32,9 +32,9 @@
 			<artifactId>spring-aspects</artifactId>
 		</dependency>
 		<dependency>
-				<groupId>com.dhanush.stem</groupId>
-	<artifactId>stem-core</artifactId>
-	<version>1.0.0</version>
+			<groupId>com.dhanush.stem</groupId>
+			<artifactId>stem-core</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
