@@ -1,6 +1,8 @@
 STEM
 ====
 
+[![Build Status](https://travis-ci.org//dhanush/stem.png)](https://travis-ci.org/dhanush/stem)
+
 STEM stands for Spring Testing with Embeddable Mongo database. This is a library which will help you embed flapdoodle's embeddable MongoDB into your Spring application for testing, if you are using MongoDB as your database. 
 
 You can use this library into your Maven project and use the Embeddable Mongo database provided by [flapdoodle](https://github.com/flapdoodle-oss/embedmongo.flapdoodle.de) for testing. The project stem-usage along with the stem project explains the usage of stem-core
